@@ -3,28 +3,24 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: qmebble <qmebble@student.42.fr>            +#+  +:+       +#+         #
+#    By: space <space@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/08/14 14:54:15 by qmebble           #+#    #+#              #
-#    Updated: 2019/08/27 16:46:33 by qmebble          ###   ########.fr        #
+#    Updated: 2019/09/01 17:02:36 by space            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRC =	main.c \
 		parse_turns.c \
 		vis_help.c \
-		push_to_render.c \
-		../libft/get_next_line.c \
-		../libft/ft_strjoin.c \
-		../libft/ft_strlen.c \
-		../libft/ft_strnew.c
+		push_to_render.c
 SRC_L_I =	../L_I/get_data.c \
 			../L_I/serv_get.c \
 			../L_I/lists.c \
 			../L_I/add_room_link.c \
 			../L_I/serv_main.c
 INCLUDE =	visualise.h \
-			../libft/libft.h
+			../libft/Headers/libft.h
 FLAGS = -Wall -Wextra -Werror
 NAME = visualisator
 FRAMEWORKS =	-I/Library/Frameworks/SDL2.framework/Headers -F ~/Library/Frameworks -framework SDL2 \
