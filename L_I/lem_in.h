@@ -6,14 +6,14 @@
 /*   By: rsumner <rsumner@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/07/10 11:01:24 by rsumner           #+#    #+#             */
-/*   Updated: 2019/08/26 16:11:27 by rsumner          ###   ########.fr       */
+/*   Updated: 2019/09/18 19:01:52 by qmebble          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LEM_IN_H
 # define LEM_IN_H
 
-# include "../libft/libft.h"
+# include "../libft/Headers/libft.h"
 # define BUFF 5000
 # define OK 0
 # define ERR -1

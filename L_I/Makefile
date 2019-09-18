@@ -6,7 +6,7 @@
 #    By: rsumner <rsumner@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/07/10 11:06:11 by rsumner           #+#    #+#              #
-#    Updated: 2019/08/26 16:45:19 by rsumner          ###   ########.fr        #
+#    Updated: 2019/09/18 19:04:01 by qmebble          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,20 +20,20 @@ all: $(NAME)
 
 $(NAME):
 	@echo Compiling Lem_in ...
-	@gcc $(FLAGS) $(SRC) -include ../libft/libft.h -o $(NAME) ../libft.a
+	@gcc $(FLAGS) $(SRC) -include ../libft/Headers/libft.h -o $(NAME) ../libft.a
 	@mv $(NAME) ../$(NAME)
 
 new:
 	@echo Recompiling Lem_in ...
 	@rm -rf ../$(NAME)
-	@gcc $(FLAGS) $(SRC) -include ../libft/libft.h -o $(NAME) ../libft.a
+	@gcc $(FLAGS) $(SRC) -include ../libft/Headers/libft.h -o $(NAME) ../libft.a
 	@mv $(NAME) ../$(NAME)
 
 debug:
 	@echo Recompiling Lem_in...
 	@rm -rf ../$(NAME)
 	@rm -rf ../$(NAME).dSYM
-	@gcc -g $(FLAGS) $(SRC) -include ../libft/libft.h -o $(NAME) ../libft.a
+	@gcc -g $(FLAGS) $(SRC) -include ../libft/Headers/libft.h -o $(NAME) ../libft.a
 	@mv $(NAME) ../$(NAME)
 	@mv $(NAME).dSYM ../$(NAME).dSYM
 
