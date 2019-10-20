@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rsumner <rsumner@student.42.fr>            +#+  +:+       +#+        */
+/*   By: qmebble <qmebble@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/08/19 12:27:52 by rsumner           #+#    #+#             */
-/*   Updated: 2019/08/26 16:41:09 by rsumner          ###   ########.fr       */
+/*   Updated: 2019/10/20 18:03:25 by qmebble          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,12 +22,12 @@ doesn't exist.\n", "out_file", "[file_name]");
 	ft_printf("Incompatible with flags other than -in_file;\n\n");
 	ft_printf("%{yellow}s\n", "To output selective parameters use:");
 	ft_printf("%{green}s: print the comments on standart output;\n",\
-	"comments");
+	"-comments");
 	ft_printf("%{green}s:    print number of rooms on standart output;\n",\
-	"rooms");
+	"-rooms");
 	ft_printf("%{green}s:    print number of lines in solution on standart\
-	output;\n", "lines");
-	ft_printf("%{green}s:   print solution on standart output.\n", "result");
+ output;\n", "-lines");
+	ft_printf("%{green}s:   print solution on standart output.\n", "-result");
 	return (0);
 }
 
