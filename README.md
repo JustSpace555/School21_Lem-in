@@ -72,6 +72,17 @@ end-6
 >
 > One line - one turn
 
+# Vizualize
+If you want to change resolution from 1920x1080 you need to find file `visualise.h` in `Vizualize` folder and change
 
+`SCREEN_WIDTH` and `SCREEN_HEIGHT` to the ones you need.
 
+![resolution](https://github.com/JustSpace555/School21_Lem-in/blob/master/Readme_files/resolution.png)
 
+After that you will need to recompile project.
+
+Run command `make new` in project's root folder or just `make` if you haven't done it yet.
+
+That's how vizualize programm works with example:
+
+![demo_gif](https://github.com/JustSpace555/School21_Lem-in/blob/master/Readme_files/lem_in_demo.gif)
